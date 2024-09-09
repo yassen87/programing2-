@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>تعلم لغات البرمجة</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+    section {
+      background-color: #f7f7f7;
+      padding: 1em;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      margin-top: 0;
+    }
+    code {
+      background-color: #f7f7f7;
+      padding: 1em;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="#python">Python</a></li>
+        <li><a href="#java">Java</a></li>
+        <li><a href="#c++">C++</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="html">
+      <h2>HTML</h2>
+      <p>HTML هو لغة ترميز гипертекستية تستخدم لإنشاء صفحات الويب.</p>
+      <code>
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;title&gt;صفحة ويب&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;h1&gt;مرحباً بك!&lt;/h1&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+      </code>
+    </section>
+    <section id="css">
+      <h2>CSS</h2>
+      <p>CSS هو لغة أنماط صفحات الويب.</p>
+      <code>
+        body {
+          background-color: #f2f2f2;
+        }
+        h1 {
+          color: #00698f;
+        }
+      </code>
+    </section>
+    <section id="javascript">
+      <h2>JavaScript</h2>
+      <p>JavaScript هو لغة برمجة تستخدم لإنشاء تطبيقات الويب.</p>
+      <code>
+        console.log("مرحباً بك!");
+      </code>
+    </section>
+    <section id="python">
+      <h2>Python</h2>
+      <p>Python هو لغة برمجة تستخدم لإنشاء تطبيقات الويب.</p>
+      <code>
+        print("مرحباً بك!")
+      </code>
+    </section>
+    <section id="java">
+      <h2>Java</h2>
+      <p>Java هو لغة برمجة تستخدم لإنشاء تطبيقات الويب.</p>
+      <code>
+        System.out.println("مرحباً بك!");
+      </code>
+    </section>
+    <section id="c++">
+      <h2>C++</h2>
+      <p>C++ هو لغة برمجة تستخدم لإنشاء تطبيقات الويب.</p>
+      <code>
+        cout &lt;&lt; "مرحباً بك!";
+      </code>
+    </section>
+  </main>
+  <script>
+    // إضافة حدث لزر الإدخال
+    document.addEventListener("DOMContentLoaded", function() {
+      const input = document.getElementById("input");
+      input.addEventListener("click", function() {
+        // إظهار القائمة
+        const menu = document.getElementById("menu");
+        menu.style.display = "block";
+      });
+    });
+  </script>
+</body>
+</html>
